@@ -1,0 +1,38 @@
+@media(max-width:1140px) {
+    .main-box{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:900px) {
+    .footer-box{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    .header-nav-box{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    
+   .header-nav{
+    padding: 10px 0;
+   }
+   
+   .header-content{
+    height: auto;
+    padding: 150px 0;
+   }
+   
+   .header-nav-list{
+    justify-content: center;
+   }
+}
+
+@media(max-width:600px){
+    .main-box-itm{
+        max-width: none;
+    }
+}
